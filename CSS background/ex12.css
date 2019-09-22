@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.list-item {
+    color: red;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 8px;
+    border: 1px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.list-item-transparent{
+    background: rgb(237,8,224);
+    background: linear-gradient(50deg, rgba(237,8,224,1) 0%, rgba(76,23,125,1) 30%, rgba(85,17,167,1) 55%, rgba(78,16,171,1) 80%, rgba(48,52,255,1) 100%);
+}
+
+.list-item-pattern {
+    background-image: url(./img/images.jpg);
+    background-size: 20%;
+    height: 100px;
+    background-repeat: repeat;
+}
+
+.list-item-image {
+    background-image: url(./img/mmVZxbz.jpg);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.list-item-parallax {
+    background-image: url(./img/mountain-background_1555029.jpg);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -30px 90px;
+    background-attachment: fixed;
+}

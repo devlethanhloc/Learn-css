@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+.list-item {
+    color: black;
+    font-weight: bold;
+    /* padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding: 10px 12px 14px 16px;
+    padding: 10px 50px 20px;
+    padding: 10px 20px; */
+    padding: 16px;
+    margin-bottom: 8px;
+    /* border-width: 1px;
+    border: 1px solid red; */
+    /* border-width: 0 0 0 10px; */
+    border: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.list-item-transparent{
+    background: rgb(237,8,224);
+    background: linear-gradient(50deg, rgba(237,8,224,1) 0%, rgba(76,23,125,1) 30%, rgba(85,17,167,1) 55%, rgba(78,16,171,1) 80%, rgba(48,52,255,1) 100%);
+}
+

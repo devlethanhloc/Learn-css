@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    /* mobile firt 
+    flex-direction: column;*/
+    /* web firt */
+    flex-direction: row;
+}
+
+.item {
+    padding: 50px;
+    text-align: center;
+    background-color: #DDD;
+    border: 1px solid #888;
+    /* web firt */
+    flex-grow: 1;
+}
+/* mobile firt */
+/* @media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .item {
+        flex-grow: 1;
+    }
+} */
+
+@media (max-width: 400px){
+    .container {
+        flex-direction: column;
+    }
+}

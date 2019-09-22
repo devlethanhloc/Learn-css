@@ -1,0 +1,23 @@
+* {
+    color: red;
+}
+
+#p1 {
+    color: #777;
+}
+
+.paragraph {
+    color: brown;
+}
+
+p {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: blue !important;
+}
